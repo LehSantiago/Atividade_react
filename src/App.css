@@ -1,0 +1,221 @@
+*{box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  }
+
+
+
+.main{
+  position: relative;
+ width: 100%;
+  background-color: rgb(223, 190, 238);
+  height:auto;
+  }
+  .cabecalho{
+    position: relative;
+background-image:url(chainsaw2.jpg);
+height:300px;
+width:100%;
+
+  }
+    .cabecalho img{
+      height:150px;
+      width:100%;
+
+
+    }
+  .menu{
+    position: relative;
+    width:auto;
+    background-color:#ff0534;
+    color:beige;
+    font-weight: bold;
+    height:50px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    border:2px solid #ffffff;
+
+  }
+  .menu a{ 
+    border:1px  solid rgb(255, 117, 135);
+
+    font-size: 13pt;
+    padding:10px;
+    text-decoration:none;
+  
+    color:#fff;
+    flex-direction: row;
+    transition: all .5s;
+  }
+ .menu a:hover {
+    background-color: rgb(255, 117, 135);
+ }
+  .conteudo{
+    position: relative;
+    background-color:#DCDCDC;
+    color:beige;
+    width:auto;
+    height:800px;
+    text-align:justify;
+   
+
+  }
+.conteudo p{
+  position: absolute;
+  font-size: 11pt;
+  color:rgb(49, 49, 49);
+ 
+  text-align: justify;
+  padding: 5%;
+  bottom: 390px;
+  font-family:     'Trebuchet MS', sans-serif;
+ font-weight: bold;
+
+  }
+  .manhua, .manga, .manhwa{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color:beige;
+    height: 650px;
+    margin:20px;
+    margin-top: 45px;
+    width:370px;
+    left:55px;
+    float:left;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 4px solid #FF3334;
+  }
+  .imagem1, .imagem2, .imagem3{
+    position: relative;
+    color:beige;
+    height: 380px;
+    width:320px;
+    float:left;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 220px;
+    border: 1px solid #000000;
+
+  }
+  .imagem1{
+    position: relative;
+  background-image:url(manga1.png);
+  
+
+
+  }
+  .imagem2{
+    position: relative;
+  background-image:url(manhwa1.png);
+
+
+  }
+  .imagem3{
+    position: relative;
+  background-image:url(manhua1.png);
+
+ 
+  }
+  h3{
+    position:absolute;
+color:#FF3334;
+text-align: center;
+bottom: 600px;
+font-weight: bold;
+
+
+  }
+  .galeria{
+    position: relative;
+background-color: #2EF297;
+    color:beige;
+    font-weight: bold;
+    border: 10px solid #fff;;
+    width:auto;
+    height: 520px;
+  }
+h1{
+  position: relative;
+text-align: center;
+top: 20px;
+
+
+}
+  .caixa1, .caixa2,  .caixa3,  .caixa4,  .caixa5{
+    position: relative;
+    color:beige;
+    height: 300px;
+    margin: 22px;
+    margin-top: 50px;
+    width:220px;
+    float:left;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 4px solid #fff;
+
+
+  }
+
+h2{
+    position: absolute;
+    color:rgb(255, 255, 255);
+ font-weight: bold;
+ margin-top: 350px;
+ font-size: 12pt;
+  text-align: center;
+
+
+
+  }
+  .caixa1{
+    background-image: url(reco1.png);
+  }
+  .caixa2{
+    background-image: url(reco2.png);
+  }
+  .caixa3{
+    background-image: url(reco3.png);
+  }
+  .caixa4{
+    background-image: url(reco4.png);
+  }
+  .caixa5{
+    background-image: url(reco5.png);
+  }
+  footer a{
+font-weight: bold;
+text-decoration: none;
+color:aliceblue;
+font-size: 12pt;
+text-align: center;
+flex-direction: row;
+display: flex;
+align-items: right;
+justify-content: space-around;
+transition: all .5s;
+    border: 10px solid transparent;
+    
+  }
+  footer{ 
+    background-color:#9B26F8;
+    text-decoration: none;
+    color:beige;
+    width:auto;
+    height: auto;
+  }
+  footer a:hover{
+    border: 10px solid #ffffff;
+   
+  }
+
+
+
+

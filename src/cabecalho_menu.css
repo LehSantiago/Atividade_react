@@ -1,0 +1,54 @@
+*{box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+  
+  
+  
+  .main{
+    position: relative;
+   width: 100%;
+    background-color: rgb(223, 190, 238);
+    height:auto;
+    }
+    .cabecalho{
+      position: relative;
+  background-image:url(chainsaw2.jpg);
+  height:300px;
+  width:100%;
+  
+    }
+      .cabecalho img{
+        height:150px;
+        width:100%;
+  
+  
+      }
+    .menu{
+      position: relative;
+      width:auto;
+      background-color:#ff0534;
+      color:beige;
+      font-weight: bold;
+      height:50px;
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+      border:2px solid #ffffff;
+  
+    }
+    .menu a{ 
+      border:1px  solid rgb(255, 117, 135);
+  
+      font-size: 13pt;
+      padding:10px;
+      text-decoration:none;
+    
+      color:#fff;
+      flex-direction: row;
+      transition: all .5s;
+    }
+   .menu a:hover {
+      background-color: rgb(255, 117, 135);
+   }
+  

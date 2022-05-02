@@ -1,0 +1,30 @@
+footer a{
+    font-weight: bold;
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 12pt;
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+    transition: all .5s;
+        border: 10px solid transparent;
+        
+      }
+      footer{ 
+        background-color:#9B26F8;
+        text-decoration: none;
+        color:beige;
+        width:auto;
+        height: auto;
+      }
+      footer a:hover{
+        border: 10px solid #ffffff;
+       
+      }
+    
+    
+    
+    
+    

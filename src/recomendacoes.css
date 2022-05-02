@@ -1,0 +1,60 @@
+.galeria{
+    position: relative;
+background-color: #2EF297;
+    color:beige;
+    font-weight: bold;
+    border: 10px solid #fff;;
+    width:auto;
+    height: 520px;
+  }
+h1{
+  position: relative;
+text-align: center;
+top: 20px;
+
+
+}
+  .caixa1, .caixa2,  .caixa3,  .caixa4,  .caixa5{
+    position: relative;
+    color:beige;
+    height: 300px;
+    margin: 22px;
+    margin-top: 50px;
+    width:220px;
+    float:left;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 4px solid #fff;
+
+
+  }
+
+h2{
+    position: absolute;
+    color:rgb(255, 255, 255);
+ font-weight: bold;
+ margin-top: 350px;
+ font-size: 12pt;
+  text-align: center;
+
+
+
+  }
+  .caixa1{
+    background-image: url(reco1.png);
+  }
+  .caixa2{
+    background-image: url(reco2.png);
+  }
+  .caixa3{
+    background-image: url(reco3.png);
+  }
+  .caixa4{
+    background-image: url(reco4.png);
+  }
+  .caixa5{
+    background-image: url(reco5.png);
+  }
+ 
